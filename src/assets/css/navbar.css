@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 5rem; */
+  /* background-color: brown; */
+  position: relative;
+  width: 100%;
+  /* overflow: hidden; */
+}
+
+.store-name {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.homeBtn {
+  all: unset;
+  position: relative;
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.homeBtn::after {
+  content: "";
+  position: absolute;
+  color: white;
+  background-color: black;
+  z-index: 0;
+  transition: left 0.3s ease-in-out;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.homeBtn:hover::after {
+  left: 0;
+}
+.homeBtn:hover {
+  color: white;
+}
+
+.homeBtn span {
+  position: relative;
+  z-index: 1;
+}

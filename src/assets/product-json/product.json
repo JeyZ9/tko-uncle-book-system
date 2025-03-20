@@ -1,0 +1,159 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "imagePath": "hot-book.jpg",
+      "keyword": "hot",
+      "description": "หนังสือมาใหม่"
+    },
+    {
+      "id": 2,
+      "imagePath": "bg-eng-book.jpg",
+      "keyword": "eng",
+      "description": "หนังสือมาต่างประเทศ"
+    },
+    {
+      "id": 3,
+      "imagePath": "bg-myself.jpg",
+      "keyword": "myself",
+      "description": "หนังสือพัฒนาตนเอง"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "imagePath": "bg-eng-book.jpg",
+      "name": "The Visual MBA",
+      "price": 150,
+      "stock": 10,
+      "type": true,
+      "menuId": 1
+    },
+    {
+      "id": 2,
+      "imagePath": "bg-eng-book.jpg",
+      "name": "Scientists",
+      "price": 250,
+      "stock": 10,
+      "type": true,
+      "menuId": 1
+    },
+    {
+      "id": 3,
+      "imagePath": "bg-eng-book.jpg",
+      "name": "The Total Inventor's Manual",
+      "price": 190,
+      "stock": 10,
+      "type": true,
+      "menuId": 1
+    },
+    {
+      "id": 4,
+      "imagePath": "bg-eng-book.jpg",
+      "name": "Easy As Pi",
+      "price": 150,
+      "stock": 10,
+      "type": true,
+      "menuId": 1
+    },
+    {
+      "id": 5,
+      "imagePath": "bg-eng-book.jpg",
+      "name": "Tiny Python Project",
+      "price": 250,
+      "stock": 10,
+      "type": true,
+      "menuId": 1
+    },
+    {
+      "id": 6,
+      "imagePath": "bg-eng-book.jpg",
+      "name": "The Visual MBA",
+      "price": 150,
+      "stock": 10,
+      "type": true,
+      "menuId": 2
+    },
+    {
+      "id": 7,
+      "imagePath": "bg-eng-book.jpg",
+      "name": "Scientists",
+      "price": 250,
+      "stock": 10,
+      "type": true,
+      "menuId": 2
+    },
+    {
+      "id": 8,
+      "imagePath": "bg-eng-book.jpg",
+      "name": "The Total Inventor's Manual",
+      "price": 190,
+      "stock": 10,
+      "type": true,
+      "menuId": 2
+    },
+    {
+      "id": 9,
+      "imagePath": "bg-eng-book.jpg",
+      "name": "Easy As Pi",
+      "price": 150,
+      "stock": 10,
+      "type": true,
+      "menuId": 2
+    },
+    {
+      "id": 10,
+      "imagePath": "bg-eng-book.jpg",
+      "name": "Tiny Python Project",
+      "price": 250,
+      "stock": 10,
+      "type": true,
+      "menuId": 2
+    },
+    {
+      "id": 11,
+      "imagePath": "bg-eng-book.jpg",
+      "name": "The Visual MBA",
+      "price": 150,
+      "stock": 10,
+      "type": true,
+      "menuId": 3
+    },
+    {
+      "id": 12,
+      "imagePath": "bg-eng-book.jpg",
+      "name": "Scientists",
+      "price": 250,
+      "stock": 10,
+      "type": true,
+      "menuId": 3
+    },
+    {
+      "id": 13,
+      "imagePath": "bg-eng-book.jpg",
+      "name": "The Total Inventor's Manual",
+      "price": 190,
+      "stock": 10,
+      "type": true,
+      "menuId": 3
+    },
+    {
+      "id": 14,
+      "imagePath": "bg-eng-book.jpg",
+      "name": "Easy As Pi",
+      "price": 150,
+      "stock": 10,
+      "type": true,
+      "menuId": 3
+    },
+    {
+      "id": 15,
+      "imagePath": "bg-eng-book.jpg",
+      "name": "Tiny Python Project",
+      "price": 250,
+      "stock": 10,
+      "type": true,
+      "menuId": 3
+    }
+  ]
+}
