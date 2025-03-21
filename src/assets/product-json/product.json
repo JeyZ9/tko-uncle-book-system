@@ -22,7 +22,7 @@
   "products": [
     {
       "id": 1,
-      "imagePath": "bg-eng-book.jpg",
+      "imagePath": "book-1.jpg",
       "name": "The Visual MBA",
       "price": 150,
       "stock": 10,
@@ -31,7 +31,7 @@
     },
     {
       "id": 2,
-      "imagePath": "bg-eng-book.jpg",
+      "imagePath": "book-2.jpg",
       "name": "Scientists",
       "price": 250,
       "stock": 10,
@@ -40,7 +40,7 @@
     },
     {
       "id": 3,
-      "imagePath": "bg-eng-book.jpg",
+      "imagePath": "book-3.jpg",
       "name": "The Total Inventor's Manual",
       "price": 190,
       "stock": 10,
@@ -49,7 +49,7 @@
     },
     {
       "id": 4,
-      "imagePath": "bg-eng-book.jpg",
+      "imagePath": "book-4.jpg",
       "name": "Easy As Pi",
       "price": 150,
       "stock": 10,
@@ -58,7 +58,7 @@
     },
     {
       "id": 5,
-      "imagePath": "bg-eng-book.jpg",
+      "imagePath": "book-5.jpg",
       "name": "Tiny Python Project",
       "price": 250,
       "stock": 10,
@@ -67,71 +67,71 @@
     },
     {
       "id": 6,
-      "imagePath": "bg-eng-book.jpg",
-      "name": "The Visual MBA",
-      "price": 150,
+      "imagePath": "eng-book-1.jpg",
+      "name": "The Upstarts",
+      "price": 249,
       "stock": 10,
       "type": true,
       "menuId": 2
     },
     {
       "id": 7,
-      "imagePath": "bg-eng-book.jpg",
-      "name": "Scientists",
-      "price": 250,
+      "imagePath": "eng-book-2.jpg",
+      "name": "Cat Owner",
+      "price": 120,
       "stock": 10,
       "type": true,
       "menuId": 2
     },
     {
       "id": 8,
-      "imagePath": "bg-eng-book.jpg",
-      "name": "The Total Inventor's Manual",
-      "price": 190,
+      "imagePath": "eng-book-3.jpg",
+      "name": "Why the Germans Do it Better",
+      "price": 450,
       "stock": 10,
       "type": true,
       "menuId": 2
     },
     {
       "id": 9,
-      "imagePath": "bg-eng-book.jpg",
-      "name": "Easy As Pi",
-      "price": 150,
+      "imagePath": "eng-book-4.jpg",
+      "name": "How Computers Really Work",
+      "price": 320,
       "stock": 10,
       "type": true,
       "menuId": 2
     },
     {
       "id": 10,
-      "imagePath": "bg-eng-book.jpg",
-      "name": "Tiny Python Project",
-      "price": 250,
+      "imagePath": "eng-book-5.jpg",
+      "name": "Ardunno Playground",
+      "price": 320,
       "stock": 10,
       "type": true,
       "menuId": 2
     },
     {
       "id": 11,
-      "imagePath": "bg-eng-book.jpg",
-      "name": "The Visual MBA",
-      "price": 150,
-      "stock": 10,
-      "type": true,
-      "menuId": 3
-    },
-    {
-      "id": 12,
-      "imagePath": "bg-eng-book.jpg",
-      "name": "Scientists",
+      "imagePath": "book-6.jpg",
+      "name": "Hacking",
       "price": 250,
       "stock": 10,
       "type": true,
       "menuId": 3
     },
     {
+      "id": 12,
+      "imagePath": "book-7.jpg",
+      "name": "How Science Works",
+      "price": 350,
+      "stock": 10,
+      "type": true,
+      "menuId": 3
+    },
+    {
       "id": 13,
-      "imagePath": "bg-eng-book.jpg",
-      "name": "The Total Inventor's Manual",
+      "imagePath": "book-8.jpg",
+      "name": "Swift Programming",
       "price": 190,
       "stock": 10,
       "type": true,
@@ -139,17 +139,17 @@
     },
     {
       "id": 14,
-      "imagePath": "bg-eng-book.jpg",
-      "name": "Easy As Pi",
-      "price": 150,
+      "imagePath": "book-9.jpg",
+      "name": "ESpaceflight",
+      "price": 200,
       "stock": 10,
       "type": true,
       "menuId": 3
     },
     {
       "id": 15,
-      "imagePath": "bg-eng-book.jpg",
-      "name": "Tiny Python Project",
+      "imagePath": "book-10.jpg",
+      "name": "Drawing Techniques",
       "price": 250,
       "stock": 10,
       "type": true,

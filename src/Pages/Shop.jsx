@@ -78,12 +78,12 @@ export const Shop = () => {
                   alt=""
                 />
               </div>
-              <div className="product-lable">
-                <div className="">
-                  <h2>{book.name}</h2>
-                  <p>{book.price}฿</p>
+              <div className="product-detail">
+                  <h2 className="product-name">{book.name}</h2>
+                <div className="detail">
+                  <p className="product-price">{book.price}฿</p>
+                  <button className="product-btn" onClick={() => dispatch(addToCart(book))}>Buy</button>
                 </div>
-                <button onClick={() => dispatch(addToCart(book))}>Buy</button>
               </div>
             </div>
           ))}
