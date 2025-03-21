@@ -25,7 +25,7 @@ function App() {
             <div className="container-description">
               <div className="box-description">
                 <h2 className='description'>{item.description}</h2>
-                <Link to={`/shop/${item.description}/${item.id}`} className='shopBtn'>click</Link>
+                <Link to={`/shop/${item.description}/${item.id}`} className='shop-btn'>Read more</Link>
               </div>
             </div>
           </div>

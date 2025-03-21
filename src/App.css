@@ -92,6 +92,15 @@
   animation: moveUp 0.5s ease-in-out forwards;
 }
 
+.shop-btn {
+  text-decoration: none;
+  color: green;
+}
+
+.shop-btn:hover {
+  color: rgb(0, 101, 0);
+}
+
 /* .box:hover  {
   animation: overchange;
 } */
