@@ -6,12 +6,12 @@ import { getAllBookByMenuId } from "../fetch/fetchBook";
 import { addToCart, removeFromCart } from "../redux/storre";
 import { useDispatch, useSelector } from "react-redux";
 import { FaLine } from "react-icons/fa6";
-import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
 import { RiDeleteBin2Line } from "react-icons/ri";
 
-export const Shop = () => {
+export const Shop = (props) => {
+  const { images } = props;
   const dispatch = useDispatch();
   const cartList = useSelector((state) => state.cart);
   const [carts, setCarts] = useState([]);
@@ -74,7 +74,7 @@ export const Shop = () => {
               <div className="box-image">
                 <img
                   className="product-image"
-                  src={`/src/assets/images/${book.imagePath}`}
+                  src={images[`/src/assets/images/${book.imagePath}`]?.default}
                   alt=""
                 />
               </div>

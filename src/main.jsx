@@ -7,9 +7,11 @@ import { Shop } from './Pages/Shop.jsx'
 import { Provider } from 'react-redux'
 import { store } from './redux/storre';
 
+const images = import.meta.glob('/src/assets/images/*', { eager: true });
+
 const router = createBrowserRouter([
-  {path: '/', element: <App />},
-  {path: 'shop/:type/:id', element: <Shop />}
+  {path: '/', element: <App images={images} />},
+  {path: 'shop/:type/:id', element: <Shop images={images} />}
 ])
 
 createRoot(document.getElementById('root')).render(

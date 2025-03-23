@@ -1,16 +1,13 @@
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 import './App.css'
 import { useEffect } from 'react';
 import { getAllMenu } from './fetch/fetchMenu';
 import { Link } from 'react-router-dom';
 import Navbar from './components/Navbar';
-// import eng from "./assets/images/bg-eng-book.jpg"
-// import myself from "./assets/images/bg-myself.jpg"
-// import hot from "./assets/images/hot-book.jpg"
 
-function App() {
+function App(props) {
+  const {images} = props
   const [ menu, setMenu ] = useState([]);
-
   useEffect(() => {
     setMenu(getAllMenu())
   },[])
@@ -21,7 +18,7 @@ function App() {
       <main className='main'>
         {menu.map((item) => 
           <div key={item.id} className={`box box-${item.id}`}>
-            <img className='menuImg' src={`./src/assets/images/${item.imagePath}`} alt="" />
+            <img className='menuImg' src={images[`/src/assets/images/${item.imagePath}`]?.default} alt="" />
             <div className="container-description">
               <div className="box-description">
                 <h2 className='description'>{item.description}</h2>
@@ -33,9 +30,7 @@ function App() {
         {/* <div className="box box-3">
           <img src={hot} alt="" />
         </div>
-        <div className="box box-1">
-          <img src={eng} alt="" />
-        </div>
+
         <div className="box box-2">
           <img src={myself} alt="" />
         </div> */}
